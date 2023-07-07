@@ -4,7 +4,11 @@ Paletteable is a custom CSS file for Mastodon instance administrators to coloriz
 
 The CSS reassigns the colors of various elements of the UI to custom variables (prefixed with `pal`), and includes a couple of sample color palettes to apply to the UI. These should be easy for you to customize to your requirements.
 
-### Bear In Mind:
+### How to Install
+
+In the Preferences view, go to "Administration", then "Site Settings", then "Appearance." There's a Custom CSS field - drop the CSS into there 😊
+
+### Bear In Mind
 
 * This is tested on a single server running [Glitch](https://glitch-soc.github.io/docs/) (version `v4.1.3` at time of writing). Though it should mostly work with vanilla Mastodon instances or different versions of Mastodon, there are no guarantees.
 * This is not *extensively* tested - there are likely to be some UI elements that have been missed. Consider this alpha quality at best.
