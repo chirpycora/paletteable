@@ -352,6 +352,7 @@ hr.about__meta__divider {
 .poll__link,
 .reply-indicator__content .status__content__spoiler-link,
 .reply-indicator__content blockquote,
+.reply-indicator__content a,
 .setting-meta__label,
 .setting-toggle__label,
 .status__content .status__content__spoiler-link,
@@ -376,6 +377,7 @@ hr.about__meta__divider {
 .account__display-name strong,
 .column-link--transparent.active,
 .muted .status__display-name strong,
+.reply-indicator__header>.account.small,
 .status__display-name strong,
 .status__display-name,
 .status__prepend .status__display-name strong {
@@ -396,7 +398,8 @@ hr.about__meta__divider {
 .column-header__button:hover,
 .column-header__notif-cleaning-buttons button:hover,
 .drawer--header a:focus,
-.drawer--header a:hover {
+.drawer--header a:hover,
+.reply-indicator__content {
 	color: var(--pal-text);
 }
 
