@@ -18,6 +18,27 @@ html {
 	--pal-text: #fff;
 }
 
+   
+/* Dark - Bewitching theme  */
+/* html {
+	--pal-primary-0: #05030a;
+	--pal-primary-1: #0f0b18;
+	--pal-primary-2: #1e182b;
+	--pal-primary-3: #3c3252;
+	--pal-primary-4: #4d425a;
+	--pal-primary-5: #6c5c80;
+	--pal-primary-6: #a38fbb;
+	--pal-secondary-4: #345774;
+	--pal-secondary-5: #5c8fba;
+	--pal-secondary-6: #b9dfff;
+	--pal-accent: #ff437d;
+	--pal-accent-active-gradient-1: #ff437d3d;
+	--pal-accent-active-gradient-2: #ff437d00;
+	--pal-boost: #c8ff52;
+	--pal-favorite: #ffdc52;
+	--pal-text: #fff;
+} */
+
 /* Dark - Cyberviolet theme  */
 /* html {
 	--pal-primary-0: #0e0b15;
