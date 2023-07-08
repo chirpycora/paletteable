@@ -147,6 +147,11 @@ body {
 
 
 /* Background */
+.about__domain-blocks__domain:nth-child(2n) {
+    background: var(--pal-primary-0);
+}
+    
+.about__domain-blocks__domain,
 .account__header__fields dt,
 .column > .scrollable,
 .column-subheading,
@@ -185,7 +190,6 @@ a.status-card.compact:hover {
 	background: var(--pal-primary-2);
 }
 
-.about__domain-blocks__domain,
 .column-header__button.active,
 .column-header__button.active:hover,
 .column-header__collapsible-inner,
@@ -216,7 +220,6 @@ a.status-card.compact:hover {
 	background: var(--pal-primary-3);
 }
 
-.about__domain-blocks__domain:nth-child(2n),
 .button.button-secondary:active, 
 .button.button-secondary:focus, 
 .button.button-secondary:hover,
