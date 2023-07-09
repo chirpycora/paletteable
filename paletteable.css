@@ -180,6 +180,7 @@ body {
 .detailed-status,
 .drawer__inner,
 .drawer--header,
+.drawer__header,
 .focusable:focus .detailed-status__action-bar,
 .focusable:focus .detailed-status,
 .load-more:hover,
@@ -223,6 +224,8 @@ a.status-card.compact:hover {
 .button.button-secondary:active, 
 .button.button-secondary:focus, 
 .button.button-secondary:hover,
+.drawer__header a:focus, 
+.drawer__header a:hover,
 .dropdown-menu__item a:active, 
 .dropdown-menu__item a:focus, 
 .dropdown-menu__item a:hover, 
@@ -442,6 +445,8 @@ hr.about__meta__divider {
 .column-header__notif-cleaning-buttons button:hover,
 .drawer--header a:focus,
 .drawer--header a:hover,
+.drawer__header a:focus, 
+.drawer__header a:hover,
 .reply-indicator__content {
 	color: var(--pal-text);
 }
